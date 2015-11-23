@@ -7,6 +7,10 @@
 
 将要需要的素材（图片或文件）发在public/database/下面，按自己的需要建立目录，所有的素材都安置好以后，之间点击run.bat(或者node app.js)将会在publc/data目录下生成文件目录的main.json文件，然后可以通过index.html来访问各个文件夹内容的url,一个是正常的url，一个是markdown的url。
 
+[项目地址](https://github.com/kinglisky/PUB)，可以fork到自己的项目底下，然后克隆到本地,添加自己的静态资源，运行程序，生成main.json，推送到PUB的gh-pages分支上，然后就可以通过http://username.github.io/PUB访问的到了，关于github pages的问题看看官网的那一页说明就行了。
+
+国内的七牛可以解决镜像与静态资源的问题，身份认证后免费的10G空间和流量还不错，有需要的可以去官网看那一下。
+
 **简单的栗子，只在database文件夹地下放置文件目录**也就是说是简单的两级目录
 
 
