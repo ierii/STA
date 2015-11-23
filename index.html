@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<title>个人静态资源列表</title>
+	<link rel="stylesheet" href="public/style/index.css">
+</head>
+
+<body>
+	<h1>静态资源列表</h1>
+	<ul id="wrapper">
+	</ul>
+	<div id="prompt">
+		资源地址已经复制到剪贴板，耶耶耶！
+	</div>
+	<script type="template" id="menuListTemplate">
+	{@if menuList}
+	{@each menuList as item,index}
+	<li>
+		<div class="menu" data-index="${index}">
+			<span class="des"><strong class="date">${item.mtime}</strong>  主题：<strong class="info">${item.name}</strong>
+		<i class="state"></i></span>
+		</div>
+		<div class="content"></div>
+	</li>
+	{@/each}
+	{@/if}
+	</script>
+	<script type="template" id="contentTemplate">
+	{@if filesList}
+	{@each filesList as item,index}
+	{@if index==0}
+	<div class="item head">
+	{@else}
+	<div class="item">
+		{@/if} {@if item.type==="file-img"}
+		<img src="${item.path}">
+		{@else}
+		<img src="public/database/default/file.png">
+		{@/if}
+		<span class="url"><input type="text" value="${item.path|buildURL}"><button>COPY</button></span>
+		<span class="murl"><input type="text" value="${item.path|buildMURL}"><button>COPY</button></span>
+		</div>
+	{@/each} {@/if}
+	</script>
+	<!--<script src="public/script/juicer-min.js"></script>
+	<script src="public/script/jquery.min.js"></script>
+	<script src="public/script/masonry.min.js"></script>
+	<script src="public/script/imagesloaded.min.js"></script>
+	<script src="public/script/jquery.zclip.min.js"></script>
+	<script src="public/script/main.js"></script>-->
+	<script src="public/script/compress.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "buildmenu",
+  "version": "1.0.0",
+  "description": "this is easy to build files menu",
+  "main": "app.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinglisky/PUB.git"
+  },
+  "keywords": [
+    "build",
+    "files",
+    "menu",
+    "json"
+  ],
+  "author": "kinglisky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinglisky/PUB/issues"
+  },
+  "homepage": "https://github.com/kinglisky/PUB#readme"
+}

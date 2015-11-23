@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body {
+  margin: 0% auto;
+  padding-bottom: 2%;
+  width: 86%;
+  font-family: YouYuan;
+  font-size: 16px;
+  line-height: 2em;
+  color: #fff;
+  background-color: rgba(7, 90, 109, 0.56);
+  box-shadow: rgba(7, 90, 109, 0.56) 5px 5px 20px 5px;
+}
+h1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1% 0;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrapper li {
+  margin: 1% auto;
+  display: block;
+  width: 94%;
+  list-style: none;
+}
+#wrapper li div {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+#wrapper li .menu {
+  cursor: pointer;
+  border-bottom: 1px solid #62aeb4;
+}
+#wrapper li .menu span {
+  padding: 1%;
+  display: block;
+}
+#wrapper li .menu span i.state {
+  color: #b7c3c3;
+}
+#wrapper li .content {
+  display: none;
+  width: 98%;
+  padding: 1%;
+  margin-top: 1%;
+  border: 1px solid #62aeb4;
+  border-radius: 5px;
+}
+#wrapper li .content .head,
+#wrapper li .content .item {
+  display: inline-block;
+  width: 32.6%;
+}
+#wrapper li .content .item {
+  margin: 1% 0;
+}
+#wrapper li .content .item img,
+#wrapper li .content .item p,
+#wrapper li .content .item span {
+  display: block;
+  width: 94%;
+  margin: 0 3%;
+  margin-bottom: 2%;
+}
+#wrapper li .content .item img {
+  border-radius: 5px;
+}
+#wrapper li .content .item p {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+}
+#wrapper li .content .item span {
+  padding: 0;
+  display: block;
+  overflow: hidden;
+}
+#wrapper li .content .item span input,
+#wrapper li .content .item span button {
+  display: block;
+  float: left;
+  padding: 3% 0;
+  background-color: transparent;
+  border: 1px solid #62aeb4;
+}
+#wrapper li .content .item span input {
+  text-align: center;
+  width: 79%;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  color: #ccc;
+}
+#wrapper li .content .item span button {
+  cursor: pointer;
+  font-weight: bold;
+  color: #ccc;
+  border-radius: 0 5px 5px 0;
+  width: 20%;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  background-color: rgba(98, 174, 180, 0.4);
+}
+#wrapper li .content .item span button:hover {
+  color: #000;
+  background-color: #62aeb4;
+}
+#prompt {
+  display: none;
+  font-size: 18px;
+  position: fixed;
+  z-index: 1000;
+  width: 400px;
+  height: 100px;
+  color: #eaeaea;
+  border: 1px solid #5cd5de;
+  background-color: rgba(92, 213, 222, 0.47);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 100px;
+  top: 20%;
+  left: 50%;
+  margin-left: -200px;
+}
