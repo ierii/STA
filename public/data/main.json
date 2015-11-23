@@ -18,7 +18,7 @@
         "name": "Virgola 作品集",
         "type": "folder",
         "path": "./public/database/Virgola 作品集",
-        "mtime": "Mon Nov 23 2015 12:31:13 GMT+0800 (中国标准时间)",
+        "mtime": "Mon Nov 23 2015 13:36:28 GMT+0800 (中国标准时间)",
         "files": [
             {
                 "name": "(1).jpg",
@@ -26,34 +26,6 @@
                 "path": "./public/database/Virgola 作品集/(1).jpg",
                 "size": 513490,
                 "mtime": "Wed Oct 28 2015 15:38:16 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(10).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(10).jpg",
-                "size": 384412,
-                "mtime": "Wed Oct 28 2015 15:34:13 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(11).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(11).jpg",
-                "size": 703049,
-                "mtime": "Wed Oct 28 2015 15:40:48 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(12).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(12).jpg",
-                "size": 465640,
-                "mtime": "Wed Oct 28 2015 15:37:54 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(13).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(13).jpg",
-                "size": 660954,
-                "mtime": "Wed Oct 28 2015 15:42:32 GMT+0800 (中国标准时间)"
             },
             {
                 "name": "(2).jpg",
@@ -68,48 +40,6 @@
                 "path": "./public/database/Virgola 作品集/(3).jpg",
                 "size": 485625,
                 "mtime": "Wed Oct 28 2015 15:34:20 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(4).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(4).jpg",
-                "size": 444560,
-                "mtime": "Wed Oct 28 2015 15:42:06 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(5).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(5).jpg",
-                "size": 485978,
-                "mtime": "Wed Oct 28 2015 15:35:02 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(6).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(6).jpg",
-                "size": 675214,
-                "mtime": "Wed Oct 28 2015 15:38:26 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(7).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(7).jpg",
-                "size": 528051,
-                "mtime": "Wed Oct 28 2015 15:44:00 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(8).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(8).jpg",
-                "size": 265646,
-                "mtime": "Wed Oct 28 2015 15:40:38 GMT+0800 (中国标准时间)"
-            },
-            {
-                "name": "(9).jpg",
-                "type": "file-img",
-                "path": "./public/database/Virgola 作品集/(9).jpg",
-                "size": 365509,
-                "mtime": "Wed Oct 28 2015 15:34:27 GMT+0800 (中国标准时间)"
             }
         ]
     },
