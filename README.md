@@ -5,7 +5,7 @@
 
 # 用法如下
 
-将要需要的素材（图片或文件）发在public/database/下面，按自己的需要建立目录，所有的素材都安置好以后，之间点击run.bat将会在publc/data目录下生成文件目录的main.json文件，然后可以通过index.html来访问各个文件夹内容的url,一个是正常的url，一个是markdown的url。
+将要需要的素材（图片或文件）发在public/database/下面，按自己的需要建立目录，所有的素材都安置好以后，之间点击run.bat(或者node app.js)将会在publc/data目录下生成文件目录的main.json文件，然后可以通过index.html来访问各个文件夹内容的url,一个是正常的url，一个是markdown的url。
 
 **简单的栗子，只在database文件夹地下放置文件目录**也就是说是简单的两级目录
 
