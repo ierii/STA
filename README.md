@@ -37,3 +37,6 @@
 百闻不如一见，我的静态资源托管：[http://kinglisky.github.io/PUB](http://kinglisky.github.io/PUB)
 
 
+我的博客[青鲤锦时](http://kingli.coding.io)
+
+
