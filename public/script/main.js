@@ -1,9 +1,10 @@
-;$(document).ready(function () {
+;
+$(document).ready(function () {
 	var ME = {
 		USE: {
 			mainurl: 'public/data/main.json',
 			menuData: {},
-			check:[],
+			check: [],
 			ZeroClipboardPath: 'public/script/ZeroClipboard.swf',
 			basePath: ''
 		},
@@ -53,25 +54,25 @@
 		if (!isHidden) return;
 		if (ME.USE.check[index]) return;
 		ME.USE.check[index] = true;
-		var filesData=ME.USE.menuData[index].files;
-		if(!filesData)return console.log('文件列表不存在！');
+		var filesData = ME.USE.menuData[index].files;
+		if (!filesData) return console.log('文件列表不存在！');
 		buildContent({
-				filesList: filesData
-			}, function ($content) {
-				$content.masonry({
-					itemSelector: '.item',
-					columnWidth: '.head',
-					percentPosition: true,
-					isAnimated: true
-				});
-				$content.imagesLoaded(function () {
-					$content.prev().trigger('upstate');
-					$content.masonry('layout');
-					$content.trigger('buildCopy');
-				}).progress(function () {
-					$content.masonry('layout');
-				});
+			filesList: filesData
+		}, function ($content) {
+			$content.trigger('buildCopy');
+			$content.masonry({
+				itemSelector: '.item',
+				columnWidth: '.head',
+				percentPosition: true,
+				isAnimated: true
 			});
+			$content.imagesLoaded(function () {
+				$content.prev().trigger('upstate');
+				$content.masonry('layout');
+			}).progress(function () {
+				$content.masonry('layout');
+			});
+		});
 
 	});
 	/*出事化url的复制*/
