@@ -59,7 +59,9 @@ $(document).ready(function () {
 		buildContent({
 			filesList: filesData
 		}, function ($content) {
-			$content.trigger('buildCopy');
+			/*$content.ready(function () {
+				$content.trigger('buildCopy');
+			});*/
 			$content.masonry({
 				itemSelector: '.item',
 				columnWidth: '.head',
@@ -69,6 +71,7 @@ $(document).ready(function () {
 			$content.imagesLoaded(function () {
 				$content.prev().trigger('upstate');
 				$content.masonry('layout');
+				$content.trigger('buildCopy');
 			}).progress(function () {
 				$content.masonry('layout');
 			});
@@ -77,6 +80,7 @@ $(document).ready(function () {
 	});
 	/*出事化url的复制*/
 	ME.DOM.$wrapper.on('buildCopy', 'li .content', function (event) {
+		console.log('build copy......');
 		var $this = $(this),
 			$items = $this.find('.item');
 		$items.each(function (i, e) {
