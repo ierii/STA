@@ -7,7 +7,7 @@
 
 将要需要的素材（图片或文件）发在public/database/下面，按自己的需要建立目录，所有的素材都安置好以后，之间点击run.bat(或者node app.js)将会在publc/data目录下生成文件目录的main.json文件，然后可以通过index.html来访问各个文件夹内容的url,一个是正常的url，一个是markdown的url。
 
-[项目地址](https://github.com/forkingli/STA)，可以fork到自己的项目底下，然后克隆到本地,添加自己的静态资源，运行程序，生成main.json，推送到PUB的gh-pages分支上，然后就可以通过http://username.github.io/PUB访问的到了，关于github pages的问题看看官网的那一页说明就行了。
+[项目地址](https://github.com/forkingli/STA)，可以fork到自己的项目底下，然后克隆到本地,添加自己的静态资源，运行程序，生成main.json，推送到STA的gh-pages分支上，然后就可以通过**http://username.github.io/PUB**访问的到了，关于github pages的问题看看官网的那一页说明就行了。
 
 国内的七牛可以解决镜像与静态资源的问题，身份认证后免费的10G空间和流量还不错，有需要的可以去官网看那一下。
 
@@ -44,13 +44,13 @@
 
 所以啦现在我们所要做的和jekyll一样只要生成本地的静态的文件，然后推送到远程的pages下就行了。
 
-关于github pages可以自己查阅相关的文档，这里简单说明一下，github会允许每个账号创建一个个人的主页和许许多多的的项目主页（视项目稳定），项目主页对应username.github.io仓库 例如我的项目主页就是[http://forkingli.github.io/](http://forkingli.github.io/)对应的是我的项目仓库的**kinglisky.github.io**，然后我的PUB项目主页[http://forkingli.github.io/STA](http://forkingli.github.io/STA)对应的是我的PUB仓库的gh-pages分支,我也说的不是很清楚，小伙伴可以自行百度或谷歌。
+关于github pages可以自己查阅相关的文档，这里简单说明一下，github会允许每个账号创建一个个人的主页和许许多多的的项目主页（视项目稳定），项目主页对应username.github.io仓库 例如我的项目主页就是[http://forkingli.github.io/](http://forkingli.github.io/)对应的是我的项目仓库的**forkingli.github.io**，然后我的STA项目主页[http://forkingli.github.io/STA](http://forkingli.github.io/STA)对应的是我的PUB仓库的gh-pages分支,我也说的不是很清楚，小伙伴可以自行百度或谷歌。
 
 所以我只要把本地静态数据推送远程仓库gh-pages底下，我就可已用写好index.html来访问main.json文件生成图片目录。
 
 **建议先对图片进行优化比较好**
 
-百闻不如一见，我的静态资源托管：[http://forkingli.github.io/PUB](http://forkingli.github.io/STA)
+百闻不如一见，我的静态资源托管：[http://forkingli.github.io/STA](http://forkingli.github.io/STA)
 
 
 我的博客[青鲤锦时](http://kingli.coding.io)
